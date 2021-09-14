@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-12T14:17:23.660Z</updated>
+  <updated>2021-09-14T14:38:51.862Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>网易云链接的缺点</title>
+    <link href="http://example.com/2021/09/14/%E7%BD%91%E6%98%93%E4%BA%91%E9%93%BE%E6%8E%A5%E7%9A%84%E7%BC%BA%E7%82%B9/"/>
+    <id>http://example.com/2021/09/14/%E7%BD%91%E6%98%93%E4%BA%91%E9%93%BE%E6%8E%A5%E7%9A%84%E7%BC%BA%E7%82%B9/</id>
+    <published>2021-09-14T14:20:25.000Z</published>
+    <updated>2021-09-14T14:38:51.862Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>说网易云链接这个方法好，但是其缺点极大<br>网易云链接的优点是它极其简单的安装，和后期几乎不需要什么维护等<br>其最大的缺点是无法播放受版权保护的歌，和无法加载大量歌曲（第一版的加载bug就是因为这个）<br>而且网易云这个插件无法适配一部分主题，例如我使用的nexmoe，他会出现许多奇奇怪怪的错误<br>例如播放器大到塞不下或者是崩溃</p><p>其优点则是极其容易的安装<br>只需要把网易云给你的代码写在/BLOG/themes/nexmoe/layout/_partial里的sidebar.ejs里加入即可</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="hexo搭建博客" scheme="http://example.com/categories/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="hexo插件" scheme="http://example.com/tags/hexo%E6%8F%92%E4%BB%B6/"/>
+    
+  </entry>
   
   <entry>
     <title>白给那些事</title>
