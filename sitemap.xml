@@ -4,7 +4,7 @@
   <url>
     <loc>http://example.com/2021/09/14/%E7%BD%91%E6%98%93%E4%BA%91%E9%93%BE%E6%8E%A5%E7%9A%84%E7%BC%BA%E7%82%B9/</loc>
     
-    <lastmod>2021-09-14</lastmod>
+    <lastmod>2021-09-15</lastmod>
     
   </url>
   
@@ -39,7 +39,7 @@
 
   <url>
     <loc>http://example.com/</loc>
-    <lastmod>2021-09-14</lastmod>
+    <lastmod>2021-09-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -47,14 +47,14 @@
   
   <url>
     <loc>http://example.com/tags/csgo/</loc>
-    <lastmod>2021-09-14</lastmod>
+    <lastmod>2021-09-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/hexo%E6%8F%92%E4%BB%B6/</loc>
-    <lastmod>2021-09-14</lastmod>
+    <lastmod>2021-09-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -63,14 +63,14 @@
   
   <url>
     <loc>http://example.com/categories/%E7%99%BD%E7%BB%99%E6%97%A5%E5%B8%B8/</loc>
-    <lastmod>2021-09-14</lastmod>
+    <lastmod>2021-09-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2021-09-14</lastmod>
+    <lastmod>2021-09-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
