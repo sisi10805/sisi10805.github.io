@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-15T15:06:45.578Z</updated>
+  <updated>2021-12-17T19:41:04.861Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,19 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>网易云链接的优缺点</title>
-    <link href="http://example.com/2021/09/14/%E7%BD%91%E6%98%93%E4%BA%91%E9%93%BE%E6%8E%A5%E7%9A%84%E7%BC%BA%E7%82%B9/"/>
-    <id>http://example.com/2021/09/14/%E7%BD%91%E6%98%93%E4%BA%91%E9%93%BE%E6%8E%A5%E7%9A%84%E7%BC%BA%E7%82%B9/</id>
-    <published>2021-09-14T14:20:25.000Z</published>
-    <updated>2021-09-15T15:06:45.578Z</updated>
+    <title>吐槽某些人</title>
+    <link href="http://example.com/2021/12/18/%E5%AD%A6%E6%A0%A1%E5%90%90%E6%A7%BD./"/>
+    <id>http://example.com/2021/12/18/%E5%AD%A6%E6%A0%A1%E5%90%90%E6%A7%BD./</id>
+    <published>2021-12-17T19:14:03.000Z</published>
+    <updated>2021-12-17T19:41:04.861Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>说网易云链接这个方法好，但是其缺点极大<br>网易云链接的优点是它极其简单的安装，和后期几乎不需要什么维护等<br>其最大的缺点是无法播放受版权保护的歌，和无法加载大量歌曲（第一版的加载bug就是因为这个）<br>而且网易云这个插件无法适配一部分主题，例如我使用的nexmoe，他会出现许多奇奇怪怪的错误<br>例如播放器大到塞不下或者是崩溃<br>其优点则是极其容易的安装<br>只需要把网易云给你的代码写在/BLOG/themes/nexmoe/layout/_partial里的sidebar.ejs里加入即可</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>吐槽我们班现有的问题</p><span id="more"></span><p>死人朱嘉辉能不能滚啊 天天上课侮辱我就算了 在别人面前也说 我真是**** 天天在那唱歌，我真的服了 自己唱成那<em>样还在那学。<br>还有上次广播操，我都说没人下去了，你偏不信，非要下去一个人做（你装你</em>呢？）上到来还在那说我们没和他讲没下去，然而旁边<br>的人都听得到，于是乎说自己聋了，叫我捐耳朵给他（他急了，人上人他急了）。星期五10点，我坐在自己的座位看手机，我<strong>都让<br>你位给你出去了，自己出不去还怪我，还说我恶心到他了（神</strong>上次在别人面前说我胖，然后说自己很苗条，结果现在出问题的是他<br>他反而还说我？）这种死人外地佬能不能滚出GZ。<br>疑似傻狗手机号：13549951437（欢迎轰炸）</p>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
+    <summary type="html">&lt;p&gt;吐槽我们班现有的问题&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="个人吐槽" scheme="http://example.com/categories/%E4%B8%AA%E4%BA%BA%E5%90%90%E6%A7%BD/"/>
+    
+    
+    <category term="学校" scheme="http://example.com/tags/%E5%AD%A6%E6%A0%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>nexmoe部分bug和问题总结</title>
+    <link href="http://example.com/2021/12/18/nexmoe%E9%83%A8%E5%88%86bug%E6%80%BB%E7%BB%93/"/>
+    <id>http://example.com/2021/12/18/nexmoe%E9%83%A8%E5%88%86bug%E6%80%BB%E7%BB%93/</id>
+    <published>2021-12-17T18:37:45.000Z</published>
+    <updated>2021-12-17T19:09:57.233Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>介绍了几个常见的bug和问题</p><span id="more"></span><p>一、图片bug<br>  当你第一次对文章进行分类的时候会出现一个让人很恼火的bug（就是我），图片会无法成功加载（手机端的话不仅无法加载图片，而且会卡死在主页）<br>目前解决方法是在tags：后面另起一行 例如<br>tags：</p><ul><li>XXXXX<br>（这个问题大部分人都会有，如果你不会描述这个问题，群里的带佬就会直接叫你换图床而不是修改标签栏）<br>二、好友页面留言问题<br>本人使用的是最简单的livere留言系统，该系统极其容易安装，装完之后你会发现除了好友那页没有留言其他都有了<br>那么好友那页的留言系统去哪了呢？<br>隐藏在第46行里 把数值从0改为1<br>三、音乐播放器问题<br>主要还是因为傻狗网易云，搞到这个插件难用到死<br>（发现新问题继续写）</li></ul>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;介绍了几个常见的bug和问题&lt;/p&gt;</summary>
     
     
     
@@ -41,26 +59,23 @@
   </entry>
   
   <entry>
-    <title>白给那些事</title>
-    <link href="http://example.com/2021/09/12/%E7%99%BD%E7%BB%99%E9%82%A3%E4%BA%9B%E4%BA%8B/"/>
-    <id>http://example.com/2021/09/12/%E7%99%BD%E7%BB%99%E9%82%A3%E4%BA%9B%E4%BA%8B/</id>
-    <published>2021-09-12T13:32:25.000Z</published>
-    <updated>2021-09-15T13:04:31.620Z</updated>
+    <title>网易云链接的优缺点</title>
+    <link href="http://example.com/2021/09/14/%E7%BD%91%E6%98%93%E4%BA%91%E9%93%BE%E6%8E%A5%E7%9A%84%E7%BC%BA%E7%82%B9/"/>
+    <id>http://example.com/2021/09/14/%E7%BD%91%E6%98%93%E4%BA%91%E9%93%BE%E6%8E%A5%E7%9A%84%E7%BC%BA%E7%82%B9/</id>
+    <published>2021-09-14T14:20:25.000Z</published>
+    <updated>2021-12-17T18:24:48.740Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>昨天完美天梯匹到个哈尔滨师范大学NO9（对面第三）被我这个官匹黄金的小学生暴打（指内格夫）</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>介绍了网易云链接的优缺点</p><span id="more"></span><p>说网易云链接这个方法好，但是其缺点极大<br>网易云链接的优点是它极其简单的安装，和后期几乎不需要什么维护等<br>其最大的缺点是无法播放受版权保护的歌，和无法加载大量歌曲（第一版的加载bug就是因为这个）<br>而且网易云这个插件无法适配一部分主题，例如我使用的nexmoe，他会出现许多奇奇怪怪的错误<br>例如播放器大到塞不下或者是崩溃<br>其优点则是极其容易的安装<br>只需要把网易云给你的代码写在/BLOG/themes/nexmoe/layout/_partial里的sidebar.ejs里加入即可</p>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
+    <summary type="html">&lt;p&gt;介绍了网易云链接的优缺点&lt;/p&gt;</summary>
     
     
     
-    <category term="白给日常" scheme="http://example.com/categories/%E7%99%BD%E7%BB%99%E6%97%A5%E5%B8%B8/"/>
+    <category term="hexo搭建博客" scheme="http://example.com/categories/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
     
     
-    <category term="csgo" scheme="http://example.com/tags/csgo/"/>
+    <category term="hexo blog" scheme="http://example.com/tags/hexo-blog/"/>
     
   </entry>
   
